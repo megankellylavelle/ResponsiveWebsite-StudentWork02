@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1">
+<title>SF Skate Club</title>
+<link rel="stylesheet" href="css/master.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800" rel="stylesheet">
+<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+	    if (x.className === "topnav") {
+	        x.className += " responsive";
+	    } else {
+	        x.className = "topnav";
+	    }
+	}
+</script>
+</head>
+<body>
+
+	<div class="topnav" id="myTopnav">
+		<a id="logo_topnav_override" href="index.html" class="active"><img id="logo" src="images/logo.png"></a>
+			<a class="top" href="programs.html">Programs</a>
+			<a class="dropdown" href="clubhub.html">Club Hub</a>
+			<a class="dropdown" href="about.html">About</a>
+			<a class="dropdown" href="contact.html">Contact</a>
+			<a href="javascript:void(0);" style="font-size:28px; padding: 3px 14px 5px 14px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+
+
+<section id="leadImgText">
+	<div id="leadText"><div>&nbsp;&nbsp;We are&nbsp;&nbsp;<br>&nbsp;&nbsp;SF Skate&nbsp;&nbsp;<br>&nbsp;&nbsp;Club.&nbsp;&nbsp;</div></div>
+	<picture>
+  		<source media="(min-width: 650px)" srcset="images/leadDesktop.jpg">
+  		<source media="(max-width: 649px)" srcset="images/leadSmaller.jpg">
+  		<img src="images/leadDesktop" style="width: 100%">
+	</picture>
+</section>
+
+
+<section class="oneCol" id="intro">
+	<div>San Francisco Skate Club strives to provide a safe, positive, and fun environment for youth of diverse backgrounds to pursue their passion or desire to skateboard, meet and form friendships with other young skaters, and learn from experienced skateboarders.</div>
+</section>
+
+<section class="oneCol">
+	<div>
+		<h2>Announcements</h2>
+		<p>Enrollment for the following programs and dates are now open! Hurry, space is limited.</p>
+		<p><strong>Summer Camp</strong><br>Tour and skate Bay Area skateparks and receive small group lessons with a sponsored skateboarder. 4 sessions open for children (ages 8-13) and 2 sessions open for teens (ages 12-15)</p>
+		<p><strong>Saturday Skate</strong><br>Visit and skate 2 different skate parks every Saturday for four Saturdays; receive small group lessons with a sponsored skateboarder. 2 sessions open for children (ages 8-13)</p>
+		<p><strong>EduSkate</strong><br>After School Visit our ClubHub and participate in group activities.</p>
+	</div>
+</section>
+<section class="twoCol">
+	<div>
+		<h2>Programs</h2>
+		<img src="images/indexprograms.jpg" style="width: 100%; display: block;">
+		<p>We currently offer five different programs catered to meet the varying schedules and needs of children and families throughout the year.</p><a href="programs.html"><p><strong>More info</strong></p></a>
+
+	</div>
+	<div>
+		<h2>Club Hub</h2>
+		<img src="images/indexclubhub.jpg" style="width: 100%; display: block;">
+		<p>Located on Divisadero St. SFSC's Club Hub is where we host most of our programs. We are open daily from 10-7PM as a skate shop. </p><a href="clubhub.html"><p><strong>More info</strong></p></a>
+	</div>
+</section>
+
+<div id="clearFooter"></div>
+<footer>
+	<a href="https://www.instagram.com/sfskateclub/?hl=en"><img src="images/ig.png"></a>
+	<a href="https://www.facebook.com/San-Francisco-Skate-Club-140490628302/"><img src="images/fb.png" style="padding: 0 7px 0 7px;"></a>
+	<div>© 2018 San Francisco Skate Club</div>
+</footer>
+
+</body>
+</html>
